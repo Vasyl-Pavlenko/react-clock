@@ -1,6 +1,6 @@
 # Getting Started with Create React App
 
-[DEMO LINK](https://github.com/facebook/create-react-app).
+[DEMO LINK](https://vasyl-pavlenko.github.io/react-clock/).
 
 ### User Story #1: I can see an element with id="break-label" that contains a string (e.g. "Break Length").
 
