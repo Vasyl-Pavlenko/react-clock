@@ -46,7 +46,11 @@ body {
 }
 
 .button {
-  padding: 15px 18px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  max-width: 100px;
+  padding: 15px 16px;
   outline: none;
   border: none;
   border-radius: 25px;
@@ -78,11 +82,11 @@ body {
 }
 
 .button-safe:hover {
-  background-color: #43cd4a;  
+  background-color: #43cd4a;
 }
 
 .button-safe:active {
-  background-color: #51fb59;  
+  background-color: #51fb59;
 }
 
 /* Timer Length Adjustment */
@@ -116,12 +120,12 @@ body {
 
 /* Responsive */
 @media (max-width: 768px) {
-  .flex {
-    flex-direction: column;
-  }
-
-  .button {
-    width: 100%;
+  .button,
+  .button-danger,
+  .button-safe {
+    max-width: 40px;
     margin-top: 10px;
+    margin-bottom: 10px;
+    padding: 12px 15px;
   }
 }

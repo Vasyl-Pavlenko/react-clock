@@ -177,7 +177,7 @@ const SetTimer = ({
 
         <button
           id={`${category}-increment`}
-          className="button"
+          className="button button-safe"
           onClick={handleIncrease}
         >
           <i className="fas fa-plus" />
